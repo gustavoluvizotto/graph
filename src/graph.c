@@ -8,7 +8,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#include "../inc/graph.h"
+#include "graph.h"
 
 /*
  * Allocate memory to the graph and allocate memory to adjacency list

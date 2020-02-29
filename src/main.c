@@ -7,7 +7,7 @@
  Description : Hello World in C, Ansi-style
  ============================================================================
  */
-#include "../inc/graph.h"
+#include "graph.h"
 
 int main(void) {
         int n = 7;
