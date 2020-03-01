@@ -5,6 +5,9 @@
  *      Author: glcesar
  */
 
+#ifndef GRAPH_H
+#define GRAPH_H
+
 /* A data structure to store adjacency list nodes of the graph */
 typedef struct node_s {
         int dest, weight;
@@ -27,3 +30,5 @@ void destroy_node(node_t* node);
 void destroy_list(node_t *node);
 void destroy_graph(graph_t *graph);
 void print_graph(graph_t *graph);
+
+#endif /*GRAPH_H*/
